@@ -1,5 +1,7 @@
 # Pass_Maker 👾
 
+![](https://img.shields.io/badge/version-1.0-red)
+
 Este é um programa responsável por produzir  <b>senhas randômicas e fortes</b>.
 ## Uso
 Instale as dependências necessárias:
