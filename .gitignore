@@ -1,4 +1,2 @@
-arquivo_note.txt
-notas_de_aula.txt
 *.vscode/
-*__pychache__/
+/pass_maker2/__pycache__/
