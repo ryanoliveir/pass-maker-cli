@@ -1,11 +1,12 @@
 # -*- coding: utf-8 -*-
 
-from art import text2art
+from art import *
 from progress.bar import ChargingBar
 from time import sleep
 import random
 import string
 import platform
+
 
 
 
