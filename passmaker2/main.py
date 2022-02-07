@@ -1,12 +1,20 @@
+# -*- coding: utf-8 -*-
+
 from passmaker import Passmaker
 
 
+def readline(msg):
+    while True:    
+        try:
+            return int(input(msg))
+        except (TypeError, ValueError):
+            print("[!] Must be an integer...\n")
 
-print("pmaker > Number of characters:",)
-numChar = int(input("=> "))
+unicode = '\u20E0'
+numChar = readline(f"pmaker {unicode}  Number of characters:\n$ ")
 
-print("pmaker > Number of passwords ",)
-numPass = int(input("=> "))
+numPass = readline(f"pmaker {unicode}  Number of passwords\n$ ")
+
 
 
 
