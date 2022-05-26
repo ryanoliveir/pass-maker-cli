@@ -17,7 +17,7 @@ def conti_():
     if option == 'y' or option == 'Y':
         pass
     else:
-        sys.exit(0)
+        sys.exit()
 
 
 #LOAD_BAR_FUNCTION
