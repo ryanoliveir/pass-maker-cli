@@ -6,7 +6,7 @@ from time import sleep
 import random
 import string
 import platform
-
+import sys
 
 
 
@@ -17,8 +17,10 @@ def conti_():
     if option == 'y' or option == 'Y':
         pass
     else:
-        quit()
+        sys.exit(0)
 
+
+#LOAD_BAR_FUNCTION
 def set_load_bar(type_os, pass_number):
     if type_os == True:
         #OS: Linux
@@ -63,6 +65,8 @@ def set_color():
         print('[*]Colors status: TRUE')
         colors_setting = [ RED_LINUX, BLUE_LINUX, GREEN_LINUX, NONE_LINUX ]
         return colors_setting , colors_setting[3], True
+
+
 #PASSWORD_MAKER
 def pass_maker(caracteres, password_number):
     data_base = string.ascii_uppercase + string.ascii_lowercase + string.digits + "!#$%&"

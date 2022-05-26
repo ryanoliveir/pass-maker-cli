@@ -1,4 +1,4 @@
-# Pass_Maker 👾
+# Pass_Maker CLI 👾
 
 ![](https://img.shields.io/badge/version-1.0-red)
 
